@@ -9,9 +9,9 @@ public class Main {
 
         String content = Files.readString(file.toPath());
 
-        boolean findWord = content.contains("Any text");
+        boolean isWordInText = content.contains("Any text");
 
-        System.out.println(findWord);
+        System.out.println(isWordInText);
     }
 
 }
