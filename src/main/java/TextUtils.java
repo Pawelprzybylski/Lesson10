@@ -4,8 +4,9 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Locale;
 
-public class Main {
-    public static void main(String[] args) throws IOException {
+public class TextUtils {
+
+    public static void changeLowerCaseToUpperCase() throws IOException {
 
         File file = new File("C:\\Users\\pawel\\IdeaProjects\\Lesson10.Task6\\src\\main\\Text.txt");
 
@@ -16,6 +17,7 @@ public class Main {
         Files.writeString(Path.of("C:\\Users\\pawel\\IdeaProjects\\Lesson10.Task6\\src\\main\\java\\output.txt"), textToUpperCase);
 
     }
+
 }
 
 
