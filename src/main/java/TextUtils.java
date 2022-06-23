@@ -10,14 +10,14 @@ public class TextUtils {
 
         String content = Files.readString(file.toPath());
 
-        int characters = 0;
+        int numberOfCharacters = 0;
         for (int i = 0; i < content.length(); i++) {
             if (content.charAt(i) != ' ') {
-                characters++;
+                numberOfCharacters++;
             }
         }
 
-        System.out.println(characters);
+        System.out.println(numberOfCharacters);
 
     }
 
