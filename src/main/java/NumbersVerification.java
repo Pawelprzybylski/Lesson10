@@ -1,4 +1,4 @@
-public class Main {
+public class NumbersVerification {
 
     public void validate(int[] values) {
         for (int i = 0; i < values.length; i++) {
